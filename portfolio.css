@@ -163,6 +163,9 @@ nav a:hover {
   border-radius: 10px;
 }
 
+.profile-text{
+  margin-right:20%;
+}
 .profile-text h2 {
   margin: 0;
 }
