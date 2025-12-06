@@ -7,12 +7,12 @@
 <body>
 
 <nav>
-  <h2 class="logo">Ayumu Okumura</h2>
+  <h2 class="logo"><a href="#home">Ayumu Okumura</a></h2>
 
   <div class="nav-links">
     <a href="#home">Home</a>
     <a href="#about">About</a>
-    <a href="#reference">Reference</a>
+    <a href="#reference">Quote</a>
     <a href="#project">Project</a>
     <a href="#contact">Contact</a>
   </div>
@@ -27,33 +27,38 @@
 
   </div>
   <div class="profile-photo">
-    <img src="1000001228.jpg" alt="Ayumu Okumura">
+    <img src="Picture/1000001228.jpg" alt="Ayumu Okumura">
   </div>
 
   
 
 </div>
 <div class='mission'>
-<h2 class='statement'>Pursue a path of continuous learning and development</h2>
+<h2 class='statement'>To learn continually, improve consistently, and never stop growing</h2>
 </div>
   </section>
 
   <section id="about">
     <h2>About</h2>
-    <p>Ayumu is a student at Lethbridge Polytechnic taking Computer Information Technology. 
-	He is hardworking individual holds himself to high-standards and earger to learn and expand his knowledge.
-	He is intereste in database designing. 
-	His mission is .......... </p>
+    <h4 class='aboutMe'>Ayumu is a student at Lethbridge Polytechnic taking Computer Information Technology. 
+	He is hardworking individual holding himself to high-standards and earger to learn and expand his knowledge.
+	His mission is "To learn continually, improve consistently, and never stop growing".
+	He believes countinuous learning is the most powerful way to grow.
+	His name, Ayumu, means "stepping forword" in Japanese. As the name represent, he will learn and improve continually.
+	<br><br>
+	He has great problem-solving and collaboration skills based on 7 years of experience at Tim Hortons in Canada handling fast-pased work under pressure.
+	
+	</h4>
   <div class="resume-container">
 
     <div class="resume-item">
-        <img src="CoverLetter.jpg" class="resume-img">
-        <a href="CoverLetter.pdf" download class="download-btn">Download Cover Letter</a>
+        <img src="Picture/CoverLetter.jpg" class="resume-img">
+        <a href="Document/CoverLetter.pdf" download class="download-btn">Download Cover Letter</a>
     </div>
 
     <div class="resume-item">
-        <img src="Resume.jpg" class="resume-img">
-        <a href="Resume.pdf" download class="download-btn">Download Resume</a>
+        <img src="Picture/Resume.jpg" class="resume-img">
+        <a href="Document/Resume.pdf" download class="download-btn">Download Resume</a>
     </div>
 
 </div>
@@ -61,7 +66,7 @@
   </section>
 
   <section id="reference">
-    <h2>reference</h2>
+    <h2>Quote</h2>
 	<div class="reference-box">
 	  
 	  <h3>
@@ -99,7 +104,7 @@
     <div class="article-block">
         <p>This is the one of the programming project developed outside school work.
 		The main reason of implementing this project is to learn Python coding and apply 
-		the knowledge of coding from from C++, C#, and Java programming class.
+		the knowledge of coding from C++, C#, and Java programming class.
 		</p>
     </div>
 	<div class="article-block">
@@ -110,26 +115,29 @@
 		However, this program is designed to support all yearly, monthly, weekly, and daily interest with both simple and compound interest.
 		It will be updated on Github.
 		</p>
-        <img src="project1_1.png" class="article-photo">
+        <img src="Picture/project1_1.png" class="article-photo">
     </div>
 
     <div class="article-block">
         <p>Once user enters the all the debt information, the program asks user to enter paid amount for each interval.
-		In this example, $20 is entered for each interval to see interest amount change.
+		In this example, $20 is entered for each year interval to see interest amount change.
 		</p>
-        <img src="project1_2.png" class="article-photo">
+        <img src="Picture/project1_2.png" class="article-photo">
     </div>
 	<div class="article-block">
         <p>When the user decides to quit or the amound reaches zero, This program shows summary of the payments.
 		It starts with showing the information the user entered: debt amount, rate, type of interest, and interval of interest.
 		It shows how much paid, the remaining of the principle, interest amount of each interval, total amount of interest, and lastly total amount of debt.</p>
-        <img src="project1_3.png" class="article-photo">
+        <img src="Picture/project1_3.png" class="article-photo">
     </div>
 	<div class="article-block">
         <p>Lastly the program generates bar graph to visualize the changes of the remaining amount and interst amount,
 		and it will also show the extra amount from the last payment if there is any. 
+		<br><br>
+		Because this project is still in development, there is some features that is not finished, such as, save and load function to let users continue where they stopped 
+		and estimate function to calculate how long to take based on the users' input. 
 		</p>
-        <img src="project1_graph.png" class="article-photo">
+        <img src="Picture/project1_graph.png" class="article-photo">
     </div>
 	<div class="resume-container">
 	<div class="resume-item">
@@ -143,18 +151,35 @@
 
     <div class="article-block">
         <h2>Mock Game Library</h2>
-        <img src="photo1.jpg" class="article-photo">
     </div>
 
     <div class="article-block">
-        <p>This project was made to understand how the real world database connected using ERD.
+        <p>This project is about creating Entity Relationship Diagram and Microsoft Access database and generate reports based on the data.
+		The purpose of this project was to demonstrate the skill of designing detabase using data from Steam database.
 		</p>
-        <img src="photo2.jpg" class="article-photo">
+    </div>
+	
+	<div class="article-block">
+        <p>The first picture shows all the relationship used in this project. 
+		Category table has zero or more game. Game table has one or more category. Game_Category table is a bridge table connecting game and category tables preventing many-to-many relationship.
+		Game has one difficulty, and difficulty has zero or more games.
+		Game has zero or more players, and player has zero or more games. Player_Game_Info table connect both table and store played hour, purchased date, and last played date.</p>
+        <img src="Picture/project2_ERD.png" class="article-photo">
     </div>
 
     <div class="article-block">
-        <p>Curabitur commodo libero vel augue fermentum venenatis.</p>
-        <img src="photo3.jpg" class="article-photo">
+        <p>The second picture is an example of data in GAME table. 
+		It contains game ID, game name, developer name, price of game, date published, download containts availability, and 3 level of difficulty.
+		
+		</p>
+        <img src="Picture/project2_list.png" class="article-photo">
+    </div>
+	<div class="article-block">
+        <p>The last  part of projecft is to generate reports. The last picture shows one of reports generated based on query. 
+		This report is to list games which was less than $20 and bought after 2023.
+		
+		</p>
+        <img src="Picture/project2_report.png" class="article-photo">
     </div>
 
 </div>
@@ -163,7 +188,7 @@
   
   <section id="contact">
     <h2>Contact</h2>
-    <p>Contact me here.</p>
+    <a href="mailto:ayumu.okumura98@gmail.com">ayumu.okumura98@gmail.com</a>
   </section>
   
   <script>
