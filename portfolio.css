@@ -150,6 +150,9 @@ nav a:hover {
   gap: 20px;
   align-self:center;
 }
+.profile-photo{
+	align-items:center;
+}
 
 .profile-photo img {
   width: 300px;
