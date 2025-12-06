@@ -149,6 +149,8 @@ nav a:hover {
   align-items: center;
   gap: 20px;
   align-self:center;
+  padding-left:10%;
+  padding-right:10%;
 }
 .profile-photo{
 	align-items:center;
