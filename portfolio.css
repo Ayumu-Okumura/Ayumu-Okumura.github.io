@@ -4,7 +4,7 @@ html {
 }
 
 body{
-	background-image:linear-gradient(lightblue,lightgreen);
+	background-image:linear-gradient(#18a3d1,lightgreen);
 }
 
 h1{
@@ -148,6 +148,7 @@ nav a:hover {
   display: flex;
   align-items: center;
   gap: 20px;
+  align-self:center;
 }
 
 .profile-photo img {
