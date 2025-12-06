@@ -13,6 +13,9 @@ h1{
 h2{
 	font-size: 45px;
 }
+h4{
+	font-size: 22px
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -20,9 +23,16 @@ body {
   }
   
  .statement{
-	 color: green;
+	 color: black;
+	 font-style: italic;
+	 
  }
   
+ .aboutMe {
+	 padding-left:10%;
+	 padding-right:10%;
+	 padding-bottom:5%;
+ }
 
 
   /* Sticky Navigation */
@@ -41,6 +51,7 @@ nav {
 nav .logo {
   color: white;
   margin: 0;
+  text-decoration:none;
 }
 
 .nav-links {
@@ -73,6 +84,11 @@ nav a:hover {
 	margin-right:40px;
 	margin-left:40px;
     border-bottom: 1px solid #ccc;
+
+  }
+  
+  section #home {
+	  border:0px;
   }
   
   .mission{
@@ -121,7 +137,8 @@ nav a:hover {
   padding-top: 20px;
   margin: 50px ;
   border-radius: 8px;
-  background-color: #f9f9f9;
+  background-color: #EB9256;
+  border: 2px solid black;
 }
  .reference-box h4{
 	 padding-top: 0px;
@@ -178,6 +195,7 @@ nav a:hover {
     gap: 10px; /* spacing between each text-photo group */
 	background-color:navy;
 	border-radius:20px;
+	border:2px solid black;
 	color:white;
 	padding:20px;
 	margin:40px;
@@ -260,9 +278,10 @@ nav .logo {
 }
 
 section {
-	padding: 0px;
+	padding: 10px;
 	margin: 5px
 }
+
 .article-block {
 		margin:0px;
         flex-direction: column;
