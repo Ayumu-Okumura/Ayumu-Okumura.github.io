@@ -83,7 +83,7 @@ nav a:hover {
 	margin-bottom: 30px;
 	margin-right:40px;
 	margin-left:40px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #dddddd;
 
   }
   
@@ -149,8 +149,8 @@ nav a:hover {
   align-items: center;
   gap: 20px;
   align-self:center;
-  padding-left:10%;
-  padding-right:10%;
+  padding-left:5%;
+  padding-right:5%;
 }
 .profile-photo{
 	align-items:center;
@@ -163,11 +163,11 @@ nav a:hover {
   border-radius: 10px;
 }
 
-.profile-text{
-  margin-right:20%;
-}
+
+
 .profile-text h2 {
   margin: 0;
+  padding-left:10%;
 }
 
 .profile-text p {
@@ -240,6 +240,10 @@ nav a:hover {
 .link-btn:hover {
 	color:white;
     background: #32429b;
+}
+
+#contact {
+	padding-bottom:10%;
 }
 
 @media (max-width: 700px) {
